@@ -3,7 +3,7 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "webAppName": {
-            "defaultValue": "demo9-devops-dev",
+            "defaultValue": "demo9-devops-test",
             "type": "String"
         },
         "hostingPlanName": {
