@@ -22,7 +22,7 @@ jobs:
     - name: Setup .NET
       uses: actions/setup-dotnet@v1
       with:
-        dotnet-version: 2.2.x
+        dotnet-version: 3.1.x
     - name: Restore dependencies
       run: dotnet restore ./Resources/Application/src/RazorPagesTestSample/RazorPagesTestSample.csproj
     - name: Build
