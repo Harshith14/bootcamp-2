@@ -33,9 +33,6 @@ jobs:
       run: dotnet build ./Resources/Application/src/RazorPagesTestSample/RazorPagesTestSample.csproj
     - name: Test
       run: dotnet test ./Resources/Application/tests/RazorPagesTestSample.Tests/RazorPagesTestSample.Tests.csproj
-  build_push_docker_image:
-    runs-on: ubuntu-latest
-    steps:
     - uses: actions/checkout@v2
     - name: Docker login
       run: docker login -u ${{ secrets.ACR_USERNAME }} -p ${{ secrets.ACR_PASSWORD }}  $registryName
