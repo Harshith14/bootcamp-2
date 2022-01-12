@@ -4,6 +4,8 @@ This sample illustrates unit tests of a [Razor Pages](https://docs.microsoft.com
 
 If you aren't using an IDE with built-in test features, execute the following command at a command prompt in the *tests/RazorPagesTestSample.Tests* folder:
 
+#commit to test the CI github action
+
 ```console
 dotnet test
 ```
