@@ -6,7 +6,7 @@ on:
   pull_request:
     branches: [ main ]
 env:
- registryName: demo9devopsreg
+ registryName: demo9devopsreg.azurecr.io
  repositoryName: wth/dotnetcoreapp
  dockerFolderPath: ./Resources/Application/src/RazorPagesTestSample
  tag: ${{ github.run_number }}
