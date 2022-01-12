@@ -47,7 +47,7 @@ jobs:
       with:
         app-name: 'demo9-devops-dev'
         publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
-        images: '$registryName/DOCKER|wth/dotnetcoreapp:${{ github.run_number }}'
+        images: 'demo9devopsreg.azurecr.io/wth/dotnetcoreapp:${{ github.run_number }}'
     
     - name: Azure logout
       run: |
